@@ -8,6 +8,7 @@ ol > li{
     font-family: '8BITWONDERNominal';
     font-weight: normal;
     font-style: normal;
+    overflow-x: hidden;
 }
 
 .header{
@@ -15,7 +16,8 @@ ol > li{
     width: 100%;
     background-position: center;
     background-size: cover;
-    position: relative
+    position: relative;
+    overflow-x: hidden;
 }
 
 #movable{
@@ -107,7 +109,7 @@ nav .fa{
 
 .members{
     width: 80%;
-    margin: auto;
+    margin-left: 37px;
     padding-top: 30px;
 }
 
@@ -246,9 +248,13 @@ h5{
         top:29%
     }
 
+    .members-col{
+        margin-bottom: 15px;
+    }
+
     .members-col img{
-        width: 130px;
-        height: 150px;
+        width: 135px;
+        height: 155px;
         border-radius: 20px;
     }
 }
