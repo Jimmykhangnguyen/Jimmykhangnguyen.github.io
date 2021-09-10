@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The CA1 Family</title>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styletesting.css">
+    <link rel="preconnect" href="https://s.gstatic.com">
+    <script src="https://kit.fontawesome.com/159b1e9ef8.js" crossorigin="anonymous"></script>
+    <!---------------Normal font--------------->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <!---------------1st 8-bit font--------------->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!---------------2nd 8-bit font--------------->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/8bit-wonder" type="text/css" />
+</head>
+
+<body>
+    <section class="nofooter">
+        <section class="headertesting">
+            <nav>
+                <a href="../index.html"><img src="../Pictures/lasttime-removebg-preview.png"></a>
+                <div class="nav-links-testing" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul type="none" >
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="../members.html">MEMBERS</a></li>
+                        <li><a href="../blog.html">BLOG</a></li>
+                        <li><a href="">GALLERY</a></li>
+                        <li><a href="">MILESTONES</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+        <section class="quote">
+            <h1>"Your success speed must be quicker than your parent's aging speed."</h1>
+            <img id="squid" src="../Pictures/Decor/squid.gif">
+        </section>
+
+        <section class="individual">
+            <img src="../Pictures/Fuong.jpg" alt="FAnh">
+            <div class="introduction">
+                <p><b>Name:</b> Mai Lan Phuong (call me Ninnin)<br><b>Birthday:</b> 4/10/2005<br><b>Favourite subject:</b> English,
+                    Mathematics<br><b>Favourite color:</b> pink (girly ah :D)<br><b>Hobby:</b> playing the piano, and music in general
+                    <br><b>Dream job:</b> working for some kind of media agency<br><b>Ultimate goal:</b> making everyone happy and optimistic
+                    <br><b>My website:</b> <a class="TMW" href="https://themagicalwonder.wixsite.com/website">The Magical Wonder</a> 
+                </p>
+            </div>
+        </section>
+
+        <img id="fish2" src="../Pictures/Decor/fishie.gif">
+
+        <section class="individual2">
+            <div class="introduction2">
+                <p style="word-wrap: break-word;">
+                    -I'm terribly terribly ngựa. <br>
+                    -I'm an introvert.<br> 
+                    -I hate being associated to "deadlines"<br>
+                    -Bò Cá 4 life <span style="color:red">❤</span><br>
+                    -Working in:<br>
+                    -Trưởng ban Truyền thông Đoàn trường THPT chuyên Lê Hồng Phong<br>
+                    -Leader of the BoD for mái ấm Ánh Sáng, part of the project "Đường Đến Tri Thức 18" - SUGAR Vietnam<br>
+                    -CLB Báo Chí trường THPT cLHP and LHP Harmonica Club<br>
+                    -Eunoia Project<br>
+                </p>
+            </div>
+            <img src="../Pictures/LFuong.jpg">
+        </section>
+        <div id="BubbleWrapper">
+
+        </div>
+
+        <div id="BubbleWrapper1">
+
+        </div>
+
+        <section class="seabed">
+            <img src="../Pictures/Decor/seaweed2.gif">
+            <img id="fish1" src="../Pictures/Decor/pufferfish.gif">
+            <img id="fish3" src="../Pictures/Decor/redfish.gif">
+            <img src="../Pictures/Decor/seaweed2.gif">
+        </section>
+
+    </section>
+
+    <footer>
+        <p>To know more, visit us at our Facebook page</p>
+        <a href="https://www.facebook.com/CultC.Anh1/?ref=pages_you_manage"><i class="fab fa-facebook"
+                style="color: black;"></i></a>
+        <p>This website is dedicated to the 31 beautiful fish of the CA1 class, 2020-2023</p>
+        <p>Special thanks to Nguyễn Hoàng Khánh Minh, Phan Hoàng Thanh Vy, and Nguyễn Đăng Khương</p>
+        <span class="why">
+            <i class="fas fa-heart"></i>
+            <h5>Lots of love from CA1</h5>
+            <i class="fas fa-heart"></i>
+        </span>
+        <p>© 2021, Khang Nguyen</p>
+    </footer>
+
+    <!---------Menu Show/Hide Javascript---------->
+
+    <script>
+
+        const navlinks = document.getElementById("navlinks");
+
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+    <!---------Creating Bubbles Left---------->
+    <script type="text/javascript">
+
+        const section = document.getElementById("BubbleWrapper");
+
+        function createBubble() {
+            const bubble = document.createElement("img")
+            var size = Math.random() * 40 + 10;
+
+            bubble.src = '../Pictures/bubble.png';
+            bubble.classList.add('bubble');
+            bubble.style.width = size - 5 + "px";
+            bubble.style.height = size + "px";
+            bubble.style.left = Math.random() * 220 + "px";
+            section.appendChild(bubble);
+        }
+
+        if (window.innerWidth > 800) {
+            setInterval(createBubble, 10000);
+        };
+
+    </script>
+
+    <!---------Creating Bubbles Right---------->
+    <script type="text/javascript">
+
+        const section1 = document.getElementById("BubbleWrapper1");
+
+        function createBubble1() {
+            const bubble1 = document.createElement("img")
+            var size = Math.random() * 40 + 10;
+
+            bubble1.src = '../Pictures/bubble.png';
+            bubble1.classList.add('bubble1');
+            bubble1.style.width = size + "px";
+            bubble1.style.height = size + "px";
+            bubble1.style.right = Math.random() * 230 - 230 + "px";
+            section1.appendChild(bubble1);
+        }
+
+        if (window.innerWidth > 800) {
+            setInterval(createBubble1, 10000);
+        };
+    </script>
+
+</body>
+
+</html>

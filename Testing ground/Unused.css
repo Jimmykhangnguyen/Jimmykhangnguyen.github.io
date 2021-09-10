@@ -1,0 +1,32 @@
+.layer h3{
+    color: white;
+    font-size: 22px;
+    bottom: 0;
+    position: absolute;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 6%;
+    margin-bottom: 15%;
+}
+
+.layer p{
+    color: white;
+    bottom: 5%;
+    font-size: 15px;
+    position: absolute;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-top: solid;
+}
+
+.layer{
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    width: 480px;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
