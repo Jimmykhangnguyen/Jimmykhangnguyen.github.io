@@ -3,13 +3,15 @@
     width: 100%;
     background-position: center;
     background-size: cover;
-    position: relative; 
+    position: relative;
+    overflow-x: visible;
 }
 
 * {
     margin: 0;
     padding: 0;
     font-family: "8BITWONDERNominal";
+    overflow-x: hidden;
 }
 
 ol > li{
@@ -68,12 +70,14 @@ nav .fa{
     display: flex;
     word-wrap: wrap;
     margin-left: 180px;
+    overflow-x: visible;
 }
 
 .introduction{
     margin-top: 25px;
     word-wrap: wrap;
     margin-left: 30px;
+    overflow-x: visible;
 }
 
 .introduction p{
@@ -82,12 +86,14 @@ nav .fa{
     line-height: 31px;
     font-family: 'Poppins', sans-serif;
     width: 650px;
+    overflow-y: hidden;
 }
 
 .individual img{
     width: 270px;
     height: 300px;
     border-radius: 150px;
+    overflow-x: visible;
 }
 
 .individual2{
@@ -95,6 +101,7 @@ nav .fa{
     min-width: 50px;
     display: flex;
     flex-wrap: wrap;
+    overflow-x: visible;
 }
 
 .introduction2{
