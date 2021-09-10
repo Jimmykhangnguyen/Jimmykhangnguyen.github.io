@@ -17,7 +17,7 @@ ol > li{
     background-position: center;
     background-size: cover;
     position: relative;
-    overflow-x: hidden;
+    overflow-x: visible;
 }
 
 #movable{
@@ -28,6 +28,7 @@ ol > li{
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
     transition: top 0.5s;
+    overflow-x: visible;
 }
 
 #movable nav{
@@ -53,6 +54,7 @@ ol > li{
 }
 
 #movable .nav-links ul li a{
+    font-weight: 500;
     color: black;
     text-decoration: none;
     font-size: 11px;
@@ -73,6 +75,7 @@ ol > li{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    overflow-x: visible;
 }
 
 .header-text-box {
@@ -83,6 +86,7 @@ ol > li{
     left: 5%;
     transform: translate(-50,-50);
     text-align: center;
+    overflow-x: visible;
 }
 
 .header-text-box h1{
@@ -92,6 +96,7 @@ ol > li{
     font-family: '8BITWONDERNominal';
     font-weight: normal;
     font-style: normal;
+    overflow-x: visible;
 }
 
 .header-text-box p{
@@ -101,6 +106,7 @@ ol > li{
     font-family: '8BITWONDERNominal';
     font-weight: normal;
     font-style: normal;
+    overflow-x: visible;
 }
 
 nav .fa{
@@ -108,8 +114,8 @@ nav .fa{
 }
 
 .members{
-    width: 80%;
-    margin-left: 37px;
+    width: 90%;
+    padding-left: 4%;
     padding-top: 30px;
 }
 
@@ -213,6 +219,11 @@ h5{
     .nav-links ul li{
         display: block;
     }
+
+    #movable .nav-links ul li a{
+        color: white;
+    }
+
     .nav-links{
         position:absolute;
         background: #f44336;
@@ -256,5 +267,9 @@ h5{
         width: 135px;
         height: 155px;
         border-radius: 20px;
+    }
+
+    #movable .nav-links{
+        text-align: left;
     }
 }
