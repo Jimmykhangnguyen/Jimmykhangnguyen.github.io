@@ -272,4 +272,8 @@ h5{
     #movable .nav-links{
         text-align: left;
     }
+
+    .layer h3{
+        display: none;
+    }
 }
