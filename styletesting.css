@@ -358,6 +358,12 @@ h5{
     height: 250px;
 }
 
+#microphone{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
 #calcu{
     position: absolute;
     margin-left: 750px;
@@ -422,7 +428,7 @@ h5{
         width: 340px;
     }
 
-    #fish1, #glasses, #calcu, #ball, #fish2, #Nyan, #fish3, #fish4, #squid, #cow, #notes, #coffee, #frog, #chem, #chem3, #guitar, #dog, #catto, #strawberry{
+    #fish1, #microphone, #glasses, #calcu, #ball, #fish2, #Nyan, #fish3, #fish4, #squid, #cow, #notes, #coffee, #frog, #chem, #chem3, #guitar, #dog, #catto, #strawberry{
         display: none;
     }
 
