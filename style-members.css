@@ -12,7 +12,7 @@ ol > li{
 }
 
 .header{
-    min-height: 40vh;
+    min-height: 37vh;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -82,7 +82,7 @@ ol > li{
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 40%;
+    top: 47%;
     left: 5%;
     transform: translate(-50,-50);
     text-align: center;
@@ -90,8 +90,9 @@ ol > li{
 }
 
 .header-text-box h1{
+    padding-top: 20px;
     font-size: 40px;
-    word-spacing: 1px;
+    word-spacing: 2px;
     color: black;
     font-family: '8BITWONDERNominal';
     font-weight: normal;
@@ -100,7 +101,8 @@ ol > li{
 }
 
 .header-text-box p{
-    margin: 10px 0 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
     font-size: 15px;
     color: black;
     font-family: '8BITWONDERNominal';
@@ -211,10 +213,10 @@ h5{
     width:100%
 }
 
-@media(max-width: 800px){
-    .header-text-box{
-        font-size: 100px;
-        top: 20%;
+@media(max-width: 810px){
+
+    .header{
+        min-height: 42vh;
     }
     .nav-links ul li{
         display: block;
