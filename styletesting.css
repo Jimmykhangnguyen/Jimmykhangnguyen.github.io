@@ -129,7 +129,7 @@ nav .fa{
 #Nyan{
     width: 750px;
     position: absolute;
-    margin-top: -28%;
+    margin-top: -330px;
 }
 
 footer{
@@ -263,41 +263,41 @@ h5{
 
 #cow{
     position: absolute;
-    margin-left: 75%;
-    margin-top: -32%;
+    margin-top: -400px;
+    margin-left: 880px;
 }
 
 #notes{
     position: absolute;
-    margin-top: -24%;
-    margin-left: 17%;
+    margin-top: -240px;
+    margin-left: 200px;
     height: 35%;
     width: 35%;
 }
 
 #coffee{
     position: absolute;
-    margin-top: -35%;
-    margin-left: 75%;
+    margin-top: -430px;
+    margin-left: 830px;
 }
 
 #frog{
     position: absolute;
-    margin-top: -32%;
-    margin-left: 75%;
+    margin-top: -400px;
+    margin-left: 830px;
 }
 
 #chem{
     position: absolute;
-    margin-top: -30%;
-    margin-left:  20%;
+    margin-top: -380px;
+    margin-left: 200px;
     width: 38%;
 }
 
 #chem3{
     position: absolute;
-    margin-top: -36%;
-    margin-left: 75%;
+    margin-top: -430px;
+    margin-left: 950px;
     width: 300px;
 }
 
@@ -326,8 +326,8 @@ h5{
 
 #catto{
     position: absolute;
-    margin-top: -24%;
-    margin-left: 17%;
+    margin-top: -300px;
+    margin-left: 240px;
     height: 65%;
     width: 30%;
 }
@@ -366,8 +366,8 @@ h5{
 
 #calcu{
     position: absolute;
-    margin-left: 750px;
-    margin-top: -98px;
+    margin-top: -100px;
+    margin-left: 700px;
     width: 190px;
     height: 220px;
 }
