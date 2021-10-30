@@ -133,9 +133,11 @@ nav .fa{
 }
 
 #Nyan{
-    width: 750px;
+    width: 900px;
+    height: 400px;
+    margin-left: -30%;
+    margin-top: -2%;
     position: absolute;
-    margin-top: -330px;
 }
 
 footer{

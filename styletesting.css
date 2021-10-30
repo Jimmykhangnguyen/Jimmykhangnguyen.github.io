@@ -66,7 +66,7 @@ nav .fa{
 }
 
 .individual{
-    margin-left: 80px;
+    margin-left: 10%;
     margin-top: 50px;
     min-width: 50px;
     word-wrap: wrap;
@@ -79,8 +79,8 @@ nav .fa{
 .introduction{
     padding-top: 8px;
     word-wrap: wrap;
-    margin-left: 30px;
-    margin-right: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
     overflow-x: visible;
 }
 
@@ -108,7 +108,7 @@ nav .fa{
     flex-wrap: wrap;
     justify-content: center;
     overflow-x: visible;
-    margin-left: 50px;
+    margin-left: 2%;
 }
 
 .introduction2{
@@ -133,9 +133,11 @@ nav .fa{
 }
 
 #Nyan{
-    width: 750px;
+    width: 900px;
+    height: 400px;
+    margin-left: -30%;
+    margin-top: -2%;
     position: absolute;
-    margin-top: -330px;
 }
 
 footer{
@@ -256,8 +258,8 @@ h5{
 #squid{
     display: flex;
     position: absolute;
-    margin-top: 20%;
-    margin-left: -500px;
+    margin-top: 15%;
+    margin-left: -40%;
     width: 140px;
     height: 190px; 
 }
@@ -269,8 +271,10 @@ h5{
 
 #cow{
     position: absolute;
-    margin-top: -400px;
-    margin-left: 880px;
+    margin-left: 30%;
+    margin-top: -6.5%;
+    width: 300px;
+    height: 250px;
 }
 
 #notes{
@@ -353,8 +357,8 @@ h5{
 
 #glasses{
     position: absolute;
-    margin-left: 800px;
-    margin-top: -420px;
+    margin-left: 65%;
+    margin-top: -32%;
 }
 
 #ball{
@@ -426,7 +430,7 @@ h5{
 
     .individual{
         margin-top: 50px;
-        margin-left: -10px;
+        margin: 0;
         display: flex;
         word-wrap: wrap;
         justify-content: space-evenly;
@@ -435,6 +439,7 @@ h5{
     }
     
     .introduction{
+        margin-left: 4%;
         margin-top: 25px;
         word-wrap: wrap;
         overflow-x: visible;
