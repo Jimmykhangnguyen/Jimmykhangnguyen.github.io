@@ -287,8 +287,10 @@ h5{
 
 #coffee{
     position: absolute;
-    margin-top: -430px;
-    margin-left: 830px;
+    margin-left: 25%;
+    margin-top: -9.5%;
+    height: 250px;
+    width: 250px;
 }
 
 #frog{
@@ -482,5 +484,13 @@ h5{
         width: 340px;
         height: 440px;
         border-radius: 20px;
+    }
+}
+
+@media(min-width : 1824px){
+    #coffee{
+        margin-top: -6%;
+        height: 300px;
+        width: 300px;
     }
 }
