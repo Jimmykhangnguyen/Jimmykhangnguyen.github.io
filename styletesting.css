@@ -154,6 +154,8 @@ footer h5{
 }
 
 .quote h1{
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
     color: white;
     font-family:'Press Start 2P', cursive;
@@ -269,6 +271,14 @@ h5{
     color: white;
 }
 
+#cam{
+    position: absolute;
+    margin-top: -7%;
+    margin-left: 25%;
+    width: 270px;
+    height: 250px; 
+}
+
 #cow{
     position: absolute;
     margin-left: 30%;
@@ -279,10 +289,16 @@ h5{
 
 #notes{
     position: absolute;
-    margin-top: -240px;
-    margin-left: 200px;
-    height: 35%;
-    width: 35%;
+    margin-top: 20%;
+    margin-left: -15%;
+    height: 260px;
+    width: 400px;
+}
+
+#chicken{
+    position: absolute;
+    margin-top: 13.5%;
+    margin-left: -15%;
 }
 
 #coffee{
@@ -295,22 +311,23 @@ h5{
 
 #frog{
     position: absolute;
-    margin-top: -400px;
-    margin-left: 830px;
+    margin-left: 25%;
+    margin-top: -8.5%;
 }
 
 #chem{
     position: absolute;
-    margin-top: -380px;
-    margin-left: 200px;
-    width: 38%;
+    margin-top: 10%;
+    margin-left: -15%;
+    width: 400px;
 }
 
 #chem3{
     position: absolute;
-    margin-top: -430px;
-    margin-left: 950px;
-    width: 300px;
+    margin-top: -8%;
+    margin-left: 26.5%;
+    height: 230px;
+    width: 200px;
 }
 
 .TMW{
@@ -330,18 +347,18 @@ h5{
 
 #dog{
     position: absolute;
-    margin-top: -90px;
+    margin-top: -10%;
     margin-left: 45%;
-    width: 40%;
-    height: 80%;  
+    width: 420px;
+    height: 500px;  
 }
 
 #catto{
     position: absolute;
-    margin-top: -300px;
-    margin-left: 240px;
-    height: 65%;
-    width: 30%;
+    margin-top: -22%;
+    margin-left: 20%;
+    height: 350px;
+    width: 450px;
 }
 
 #strawberry{
@@ -359,8 +376,10 @@ h5{
 
 #glasses{
     position: absolute;
-    margin-left: 65%;
-    margin-top: -32%;
+    margin-top: -6%;
+    margin-left: 25%;
+    width: 280px;
+    height: 210px; 
 }
 
 #ball{
@@ -378,10 +397,10 @@ h5{
 
 #calcu{
     position: absolute;
-    margin-top: -100px;
-    margin-left: 700px;
-    width: 190px;
-    height: 220px;
+    width: 160px;
+    height: 190px;
+    margin-top: -7%;
+    margin-left: 20%;
 }
 
 @media(max-width: 750px){
@@ -414,7 +433,7 @@ h5{
         padding-left:30px;
     }
 
-    #fish1, #microphone, #glasses, #calcu, #ball, #fish2, #Nyan, #fish3, #fish4, #squid, #cow, #notes, #coffee, #frog, #chem, #chem3, #guitar, #dog, #catto, #strawberry{
+    #fish1, #microphone, #cam, #chicken, #glasses, #calcu, #ball, #fish2, #Nyan, #fish3, #fish4, #squid, #cow, #notes, #coffee, #frog, #chem, #chem3, #guitar, #dog, #catto, #strawberry{
         display: none;
     }
 
