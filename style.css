@@ -234,9 +234,10 @@ h5{
     flex-basis: auto;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    transition: all 2s;
 }
 
-.Home-text .Para{
+.Para{
     font-family: 'Montserrat', sans-serif;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -246,7 +247,10 @@ h5{
     width: 350px;
     position: relative;
     overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 15px 15px 7px rgba(4, 80, 131, 0.767);
 }
+
 
 .seabed{
     display: flex;
@@ -288,9 +292,6 @@ h5{
     z-index: -1;
 }
 
-.Para{
-    padding-bottom: 30px;
-}
 
 .Para h1{
     font-family: "8BITWONDERNominal";
@@ -298,6 +299,7 @@ h5{
     color:#fff;
     font-size: 30px;
     overflow: hidden;
+    text-shadow: 2px 2px 5px rgb(255, 0, 119);
     animation: 
     appear 4s steps(40, end), step-end infinite;
 }
@@ -326,26 +328,3 @@ h5{
 .nofooter{
     background-image: linear-gradient(#71C0D8, #12448E);
 }
-
-.typewriter h1 {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
-  }

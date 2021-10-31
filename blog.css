@@ -53,6 +53,7 @@ ol > li{
     position: relative;
 }
 
+
 #movable .nav-links ul li a{
     font-weight: 500;
     color: black;
@@ -283,7 +284,7 @@ h5{
     width:100%
 }
 
-@media(max-width: 800px){
+@media(max-width: 810px){
     .header-text-box{
         font-size: 100px;
         top: 22%;
@@ -291,6 +292,11 @@ h5{
     .nav-links ul li{
         display: block;
     }
+
+    #movable .nav-links ul li a{
+        color: white;
+    }
+
     .nav-links{
         position:absolute;
         background: #f44336;
@@ -312,14 +318,13 @@ h5{
     .nav-links ul{
         padding-left:30px;
     }
-
     .Home-text{
         width: 200px;
         min-height: 200px;
     }
 
     #movable{
-        position: relative;
+        position: fixed;
     }
 
     .header{
@@ -355,5 +360,9 @@ h5{
     #blog2 p{
         font-size: 10px;
         bottom: 20px;
+    }
+
+    #movable .nav-links{
+        text-align: left;
     }
 }

@@ -461,15 +461,16 @@ h5{
     
     .introduction{
         margin-left: 4%;
-        margin-top: 25px;
+        margin-top: 45px;
         word-wrap: wrap;
         overflow-x: visible;
     }
 
     .individual img{
+        margin-top: 20px;
         width: 270px;
         height: 300px;
-        border-radius: 150px;
+        border-radius: 50%;
         overflow-x: visible;
     }
     

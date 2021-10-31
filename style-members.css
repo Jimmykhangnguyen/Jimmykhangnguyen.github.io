@@ -151,7 +151,7 @@ h3{
 }
 
 .layer:hover{
-    background: rgba(57, 147, 207,0.7);
+    background: rgba(43, 89, 131, 0.7);
     opacity: 1;
     cursor:pointer;
 }
@@ -160,7 +160,7 @@ h3{
     width: 100%;
     word-spacing: -13px;
     font-weight: 500;
-    color: black;
+    color: white;
     font-size: 26px;
     bottom: 0;
     left: 50%;
@@ -171,15 +171,17 @@ h3{
 }
 
 .layer:hover h3{
-    bottom: 49%;
+    bottom: 44%;
     opacity: 1;
     cursor: pointer;
+    -webkit-text-stroke: 1px black;
 }
 
 footer{
-    height: 150px;
+    min-height: 100px;
     text-align: center;
     background-color: #fff;
+    padding-bottom: 5px;
 }
 
 footer p{
@@ -254,7 +256,7 @@ h5{
     }
 
     #movable{
-        position: relative;
+        position: fixed;
     }
 
     .header-text-box {
@@ -277,5 +279,15 @@ h5{
 
     .layer h3{
         display: none;
+    }
+
+    footer{
+        overflow-y: hidden;
+    }
+    footer p{
+        font-size: 12px;
+    }
+    footer span{
+        font-size: 12px;
     }
 }
