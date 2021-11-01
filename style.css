@@ -152,6 +152,7 @@ h5{
     margin-bottom: 20px;
     pointer-events: none;
     transition: all 2s;
+    transition-delay: 0.5s;
 }
 
 .Para{
