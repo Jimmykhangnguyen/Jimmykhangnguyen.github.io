@@ -216,6 +216,9 @@ h5{
     box-shadow: 15px 15px 7px rgba(4, 80, 131, 0.767);
 }
 
+.Para p{
+    padding-bottom: 15px;
+}
 
 .seabed{
     display: flex;
@@ -300,6 +303,11 @@ h5{
         font-size: 100px;
         top: 20%;
     }
+
+    .Para p{
+        margin-bottom: 30px;
+    }
+
     .nav-links ul li{
         display: block;
     }
