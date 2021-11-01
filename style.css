@@ -92,6 +92,7 @@ nav img{
 }
 
 .Home-text p{
+    overflow-y: hidden;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
@@ -144,6 +145,7 @@ h5{
 }    
 
 .Home-text{
+    overflow-y: hidden;
     height: 600px;
     display: flex;
     flex-wrap: wrap;
@@ -151,8 +153,7 @@ h5{
     justify-content: space-evenly;
     margin-bottom: 20px;
     pointer-events: none;
-    transition: all 2s;
-    transition-delay: 0.5s;
+    transition: all 1.5s;
 }
 
 .Para{
@@ -169,19 +170,20 @@ h5{
     border-radius: 5px;
     box-shadow: 15px 15px 7px rgba(4, 80, 131, 0.767);
     pointer-events: auto;
-    transition: all 1s;
+    transition: all 1.5s;
 }
 
 
 .Para:hover{
     height: 820px;
-    transition: all 1s ease-in;
+    overflow-y: hidden;
 }
 
 .Para p{
     padding-bottom: 15px;
     text-align: justify;
     text-justify: inter-word;
+    overflow-y: hidden;
 }
 
 .seabed{
@@ -237,6 +239,7 @@ h5{
 }
 
 .Para p{
+    overflow-y: hidden;
     font-size: 17px;
     margin-top: 30px;
     padding-left: 20px;
@@ -253,6 +256,7 @@ h5{
 }
 
 .Para img{
+    overflow-y: hidden;
     width: 350px;
     height: 350px;
 }
@@ -287,17 +291,21 @@ h5{
 
     .Home-text{
         height: inherit;
+        overflow-y: hidden;
     }
 
     .Para{
         height: inherit;
+        overflow-y: hidden;
     }
 
     .Home-text:hover{
         height: inherit;
+        overflow-y: hidden;
     }
 
     .Para:hover{
+        overflow-y: hidden;
         height: inherit;
     }
 
