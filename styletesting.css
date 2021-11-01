@@ -289,6 +289,14 @@ h5{
     height: 250px;
 }
 
+#mamamoo{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: -15%;
+    height: 320px;
+    width: 320px;
+}
+
 #notes{
     position: absolute;
     margin-top: 20%;
@@ -435,7 +443,7 @@ h5{
         padding-left:30px;
     }
 
-    #fish1, #microphone, #cam, #chicken, #glasses, #calcu, #ball, #fish2, #Nyan, #fish3, #fish4, #squid, #cow, #notes, #coffee, #frog, #chem, #chem3, #guitar, #dog, #catto, #strawberry{
+    #fish1, #microphone, #mamamoo, #cam, #chicken, #glasses, #calcu, #ball, #fish2, #Nyan, #fish3, #fish4, #squid, #cow, #notes, #coffee, #frog, #chem, #chem3, #guitar, #dog, #catto, #strawberry{
         display: none;
     }
 
