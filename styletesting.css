@@ -141,8 +141,10 @@ nav .fa{
 }
 
 footer{
-    height: 150px;
+    min-height: 100px;
     text-align: center;
+    background-color: #fff;
+    padding-bottom: 5px;
 }
 
 footer p{
@@ -504,6 +506,16 @@ h5{
         width: 340px;
         height: 440px;
         border-radius: 20px;
+    }
+
+    footer{
+        overflow-y: hidden;
+    }
+    footer p{
+        font-size: 12px;
+    }
+    footer span{
+        font-size: 16px;
     }
 }
 
