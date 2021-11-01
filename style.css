@@ -111,65 +111,9 @@ nav .fa{
     display: none;
 }
 
-.members{
-    width: 80%;
-    margin: auto;
-    padding-top: 50px;
-}
-
-.members-col{
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
-}
-
-.members-col img{
-    width: 300px;
-    height: 340px;
-    border-radius: 20px;
-}
-
-.layer{
-    background: transparent;
-    height: 340px;
-    width: 300px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 20px;
-    transition: 0.7s;
-    opacity: 0;
-}
 
 h3{
     font-family: 'Montserrat', sans-serif;
-}
-
-.layer:hover{
-    background: rgba(57, 147, 207,0.7);
-    opacity: 1;
-    cursor:pointer;
-}
-
-.layer h3{
-    width: 100%;
-    font-weight: 500;
-    color: black;
-    font-size: 26px;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    text-align: center;
-    transition: 0.7s;
-}
-
-.layer:hover h3{
-    bottom: 49%;
-    opacity: 1;
-    cursor: pointer;
 }
 
 footer{
@@ -193,16 +137,25 @@ h5{
     font-family: 'Poppins', sans-serif;
 }
 
+
+.Home-text:hover {
+    height: 860px;
+    overflow-y: hidden;
+}    
+
 .Home-text{
+    height: 600px;
     display: flex;
     flex-wrap: wrap;
     flex-basis: auto;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    pointer-events: none;
     transition: all 2s;
 }
 
 .Para{
+    height: 480px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -214,10 +167,20 @@ h5{
     overflow: hidden;
     border-radius: 5px;
     box-shadow: 15px 15px 7px rgba(4, 80, 131, 0.767);
+    pointer-events: auto;
+    transition: all 1s;
+}
+
+
+.Para:hover{
+    height: 820px;
+    transition: all 1s ease-in;
 }
 
 .Para p{
     padding-bottom: 15px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .seabed{
@@ -294,6 +257,7 @@ h5{
 }
 
 .nofooter{
+    overflow-y: hidden;
     background-image: linear-gradient(#71C0D8, #12448E);
 }
 
@@ -304,13 +268,10 @@ h5{
         top: 20%;
     }
 
-    .Para p{
-        margin-bottom: 30px;
-    }
-
     .nav-links ul li{
         display: block;
     }
+
     .nav-links{
         position:absolute;
         background: #f44336;
@@ -322,6 +283,23 @@ h5{
         z-index: 2;
         transition: 1s;
     }
+
+    .Home-text{
+        height: inherit;
+    }
+
+    .Para{
+        height: inherit;
+    }
+
+    .Home-text:hover{
+        height: inherit;
+    }
+
+    .Para:hover{
+        height: inherit;
+    }
+
     nav .fa{
         display: block;
         color: #fff;
