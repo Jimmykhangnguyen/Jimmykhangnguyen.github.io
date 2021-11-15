@@ -233,6 +233,29 @@ h5{
     border-top: solid;
 }
 
+#blog3 h3{
+    color: white;
+    font-size: 22px;
+    bottom: 0;
+    position: relative;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 6%;
+    margin-top: 75%;
+}
+
+
+#blog3 p{
+    color: white;
+    font-size: 15px;
+    position: relative;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-top: solid;
+}
+
 #movable{
     width: 100%;
     position: fixed;
@@ -359,6 +382,16 @@ h5{
     }
 
     #blog2 p{
+        font-size: 10px;
+        bottom: 20px;
+    }
+
+    #blog3 h3{
+        font-size: 13px;
+        bottom: 20px;
+    }
+
+    #blog3 p{
         font-size: 10px;
         bottom: 20px;
     }
