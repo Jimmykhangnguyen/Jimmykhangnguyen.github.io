@@ -57,35 +57,52 @@ p{
   line-height: 27px;
 }
 
-#Vuonlen{
-  margin-top: 30px;
-  margin-bottom: 30px;
-  max-width: 600px;
-  flex-wrap: wrap;
+#vuonlen{
   justify-content: center;
-  margin-left: 4%;
+  padding-top: 1%;
+  word-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#Vuonlen h2{
+#vuonlen h2{
   line-height: 25px;
   justify-content: center;
   max-width: 500px;
+}
+
+#desvuonlen{
+  margin-top: 20px;
+  margin-left: 40px;
+  max-width: 550px;
 }
 
 #VTD{
-  margin-top: 30px;
-  margin-left: 4%;
-  margin-bottom: 30px;
-  max-width: 600px;
-  flex-wrap: wrap;
   justify-content: center;
-  margin-left: 55%;
+  padding-top: 1%;
+  word-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#VTD h2{
+#desVTD h2{
   line-height: 25px;
   justify-content: center;
   max-width: 500px;
+  min-width: 200px;
+}
+
+#vid2011{
+  margin-top: 20px;
+  padding-left: 3%;
+  width: 600px;
+  height: auto;
+}
+
+#desVTD{
+  margin-top: 5%;
+  margin-left: 40px;
+  max-width: 550px;
 }
 
 #christmas{
