@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The CA1 Family</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://s.gstatic.com">
+    <script src="https://kit.fontawesome.com/159b1e9ef8.js" crossorigin="anonymous"></script>
+    <!---------------Normal font--------------->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <!---------------1st 8-bit font--------------->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!---------------2nd 8-bit font--------------->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/8bit-wonder" type="text/css" />
+    <!---------------Testing font--------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="nofooter">
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="Pictures/lasttime-removebg-preview.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul type="none">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="members.html">MEMBERS</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="gallery.html">GALLERY</a></li>
+                        
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="header-text-box">
+                <h1>THE GALLERY OF CA1</h1>
+                <p id="first-text">COMING SOON!</p>
+            </div>
+        </section>
+
+    <!---------Menu Show/Hide Javascript---------->
+
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            setoff: -1000
+        });
+    </script>
+
+    <!----------Hide menu when scroll---------->
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("movable").style.top = "0";
+            } else {
+                document.getElementById("movable").style.top = "-100px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+
+</body>
+
+</html>
