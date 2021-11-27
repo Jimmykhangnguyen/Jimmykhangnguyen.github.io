@@ -233,7 +233,7 @@ h5{
 
 
 .nofooter{
-    background-image: linear-gradient(#2B8BC5, #12448E);
+    background-color: RGB(224, 86, 38);
     z-index: -3;
 }
 
