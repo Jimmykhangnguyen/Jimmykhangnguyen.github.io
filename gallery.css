@@ -34,8 +34,10 @@
   align-items: center;
 }
 
-#movable nav img{
-  width: 150px;
+nav a img{
+  margin-top: -5px;
+  width: 170px;
+  height: 80px;
 }
 
 #movable .nav-links{

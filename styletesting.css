@@ -232,8 +232,9 @@ h5{
 }
 
 nav a img{
-    width: 150px;
-    height: 70px;
+    margin-top: -5px;
+    width: 170px;
+    height: 80px;
 }
 
 .nofooter{
