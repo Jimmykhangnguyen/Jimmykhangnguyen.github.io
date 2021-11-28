@@ -370,7 +370,7 @@
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function () {
             var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos + 2 > currentScrollPos) {
+            if (prevScrollpos > currentScrollPos) {
                 document.getElementById("movable").style.top = "0";
             } else {
                 document.getElementById("movable").style.top = "-100px";
