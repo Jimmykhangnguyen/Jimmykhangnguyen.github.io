@@ -38,8 +38,9 @@ ol > li{
     align-items: center;
 }
 
-#movable nav img{
+nav a img{
     width: 150px;
+    height: 70px;
 }
 
 #movable .nav-links{

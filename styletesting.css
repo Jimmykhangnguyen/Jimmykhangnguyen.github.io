@@ -231,6 +231,10 @@ h5{
     z-index: 1;
 }
 
+nav a img{
+    width: 150px;
+    height: 70px;
+}
 
 .nofooter{
     background-color: #213a71;
