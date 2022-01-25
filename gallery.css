@@ -110,6 +110,7 @@ nav .fa{
 }
 
 .gallery{
+  overflow-y: hidden;
   width: 100%;
   padding-top: 30px;
 }
@@ -128,6 +129,7 @@ p{
   word-wrap: wrap;
   display: flex;
   flex-wrap: wrap;
+  overflow-y: hidden;
 }
 
 #vuonlen h2{
@@ -156,6 +158,7 @@ p{
   grid-template-rows: repeat(25, 5vw);
   grid-gap: 15px;
   border-radius: 10px;
+  margin-bottom: -2%;
 }
 
 .vuonlenpic{
@@ -275,13 +278,14 @@ p{
   color: #fff;
 }
 
-.xmas{
+.xmas, .draw{
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
 #xmas_gallery{
+  margin-bottom: -2%;
   margin-top: -30px;
   display: grid;
   grid-template-columns: repeat(16, 1fr);
@@ -455,6 +459,210 @@ p{
   margin-left: 4vh;
 }
 
+#drawings{
+  justify-content: center;
+  padding-top: 1%;
+  word-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#desdrawings{
+  max-width: 530px;
+  word-wrap: wrap;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#desdrawings h2{
+  margin-left: 1%;
+  color: #fff;
+  line-height: 25px;
+  text-align: center;
+  max-width: 500px;
+  min-width: 200px;
+}
+
+#drawing_gallery{
+  margin-bottom: -2%;
+  margin-top: -5vw;
+  display: grid;
+  grid-template-columns: repeat(27, 1fr);
+  grid-template-rows: repeat(32, 5vw);
+  row-gap: 26px;
+  column-gap: -26px;
+  border-radius: 10px;
+}
+
+.girl1{
+  grid-column-start: 3;
+  grid-column-end: 10;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.girl2{
+  grid-column-start: 11;
+  grid-column-end: 18;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.girl3{
+  grid-column-start: 19;
+  grid-column-end: 26;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.girl4{
+  grid-column-start: 19;
+  grid-column-end: 26;
+  grid-row-start: 6;
+  grid-row-end: 10;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.girl5{
+  grid-column-start: 3;
+  grid-column-end: 10;
+  grid-row-start: 6;
+  grid-row-end: 10;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.girl6{
+  grid-column-start: 11;
+  grid-column-end: 18;
+  grid-row-start: 6;
+  grid-row-end: 10;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.girl7{
+  grid-column-start: 3;
+  grid-column-end: 10;
+  grid-row-start: 10;
+  grid-row-end: 14;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.girl8{
+  grid-column-start: 11;
+  grid-column-end: 18;
+  grid-row-start: 10;
+  grid-row-end: 14;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.girl9{
+  grid-column-start: 19;
+  grid-column-end: 26;
+  grid-row-start: 10;
+  grid-row-end: 14;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.girl10{
+  grid-column-start: 3;
+  grid-column-end: 10;
+  grid-row-start: 14;
+  grid-row-end: 18;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.girl11{
+  grid-column-start: 11;
+  grid-column-end: 18;
+  grid-row-start: 14;
+  grid-row-end: 18;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.girl12{
+  grid-column-start: 11;
+  grid-column-end: 18;
+  grid-row-start: 18;
+  grid-row-end: 22;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.girl13{
+  grid-column-start: 19;
+  grid-column-end: 26;
+  grid-row-start: 18;
+  grid-row-end: 22;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.girl14{
+  grid-column-start: 3;
+  grid-column-end: 10;
+  grid-row-start: 18;
+  grid-row-end: 22;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.girl15{
+  grid-column-start: 19;
+  grid-column-end: 26;
+  grid-row-start: 22;
+  grid-row-end: 27;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.girl16{
+  grid-column-start: 19;
+  grid-column-end: 26;
+  grid-row-start: 14;
+  grid-row-end: 18;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.tgt2{
+  grid-column-start: 3;
+  grid-column-end: 18;
+  grid-row-start: 22;
+  grid-row-end: 27;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.tgt3{
+  grid-column-start: 6;
+  grid-column-end: 23;
+  grid-row-start: 27;
+  grid-row-end: 32;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.girl1:hover, .girl2:hover, .girl3:hover, .girl4:hover, .girl5:hover, .girl6:hover, .girl7:hover, .girl8:hover, .girl9:hover,
+.girl10:hover, .girl11:hover, .girl12:hover, .girl13:hover, .girl14:hover, .girl15:hover, .girl16:hover, .tgt1:hover, .tgt2:hover, .tgt3:hover{
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+
 .divider::before{
   margin-top: 30px;
   content: '';
@@ -591,7 +799,7 @@ footer p{
     justify-self: center;
   }
 
-  #desvuonlen, #desVTD{
+  #desvuonlen, #desVTD, #desdrawings, #desdrawings{
     width: 80%;
     margin-left: -1%;
   }
