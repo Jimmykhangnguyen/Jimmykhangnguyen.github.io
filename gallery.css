@@ -678,9 +678,11 @@ h3{
 }   
 
 footer{
-  height: 135px;
+  min-height: 100px;
   text-align: center;
   background-color: #fff;
+  padding-bottom: 5px;
+  line-height: 1.5;
 }
 
 footer p{
