@@ -333,6 +333,7 @@ h5{
 
     footer{
         overflow-y: hidden;
+        line-height: 1.5;
     }
     footer p{
         font-size: 12px;
