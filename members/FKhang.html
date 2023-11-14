@@ -14,6 +14,43 @@
 
         gtag('config', 'G-R8NZ850V5Y');
     </script>
+
+    <!----------Testing the Notification system--------------->
+
+    <script>
+        if ('Notification' in window) {
+          // Check if the browser supports the Notification API
+        
+          // Request permission to display notifications
+          Notification.requestPermission()
+            .then((permission) => {
+              if (permission === 'granted') {
+                // Permission to show notifications has been granted
+        
+                // Create and display a notification
+                const notification = new Notification('Hello, World!', {
+                  body: 'This is a sample notification.',
+                });
+        
+                // Handle notification click or close events
+                notification.onclick = () => {
+                  console.log('Notification clicked');
+                };
+                notification.onclose = () => {
+                  console.log('Notification closed');
+                };
+              } else if (permission === 'denied') {
+                console.log('Notification permission denied');
+              } else {
+                console.log('Notification permission has not been granted or denied');
+              }
+            });
+        }
+        
+    </script>
+
+    <!----------Testing the Notification system--------------->
+
     <link rel="stylesheet" href="../styletesting.css">
     <!---------------Open Graph--------------->
     <meta property="og:title" content="The Fish of CA1" />
